@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe6600</color>
+    <color name="colorPrimaryMiddle">#fe4c1c</color>
+    <color name="colorPrimaryDark">#fe4c1c</color>
+    <color name="colorPrimaryThin">#fe6034</color>
+    <color name="colorTest">#fe6600</color>
+    <color name="colorCoba">#ff7300</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="colorBtn">#2b78e4</color>
+
+    <!--<color name="colorPrimary"> #fe4c1c</color>-->
+    <!--<color name="colorPrimaryDark">#ff8000</color>-->
+    <!--<color name="colorTest">#fe6600</color>-->
+    <!--<color name="colorTest">#f84200</color>-->
+    <!--#ff7300-->
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bgnya">#F9C891</color>
+    <color name="lgrey">#cccccc</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#facc9d</color>
+    <color name="dot_dark_screen2">#facc9d</color>
+    <color name="dot_dark_screen3">#facc9d</color>
+    <color name="dot_dark_screen4">#facc9d</color>
+    <color name="dot_dark_screen5">#facc9d</color>
+
+    <color name="dot_light_screen1">#ff9933</color>
+    <color name="dot_light_screen2">#ff9933</color>
+    <color name="dot_light_screen3">#ff9933</color>
+    <color name="dot_light_screen4">#ff9933</color>
+    <color name="dot_light_screen5">#ff9933</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

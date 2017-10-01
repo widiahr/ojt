@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.april.approval.RegisActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:weightSum="1"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextColor="@color/colorAccent">
+
+        <ImageButton
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Register"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:id="@+id/form_regis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_gradient"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:elevation="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Nama"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtNameU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ex: Lala"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Telepon"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtPhoneU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ex: 08121212121"
+                    android:inputType="phone"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Alamat"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtAlamatU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ex: Jl. Sersan Idris No. 5"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Email"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtEmailU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ex: lala@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Password"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtPasswordU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ketikkan Password Anda"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorBtn"
+                android:text="Register"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
